@@ -76,10 +76,10 @@ def math_quiz():
             print("Invalid input! Please enter a valid integer.")  # Error message for non-integer input
 
             # Check if the answer is correct
-            if useranswer == ANSWER:
+        if useranswer == ANSWER:
                 print("Correct! You earned a point.")
                 mark += -(-1)
-            else:
+        else:
                 print(f"Wrong answer. The correct answer is {ANSWER}.")
 
 
